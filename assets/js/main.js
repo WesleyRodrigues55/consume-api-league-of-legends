@@ -22,7 +22,7 @@ const ListChampions = (data) => {
             <a href="#anchor" class="link_content_card">
                 <div class="border my-2 text-center content_card">
                     <div>
-                        <img src="http://ddragon.leagueoflegends.com/cdn/12.21.1/img/champion/${data.data[champions].image.full}" alt="${data.data[champions].image.full}" title="${data.data[champions].name}" class="w-100">
+                        <img src="http://ddragon.leagueoflegends.com/cdn/12.21.1/img/champion/${data.data[champions].image.full}" alt="${data.data[champions].image.full}" title="${data.data[champions].name}" class="w-100" loading="lazy">
                     </div>
                     <p class="pt-3 text-white">${data.data[champions].name}</p>
                 </div>
