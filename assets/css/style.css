@@ -1,0 +1,55 @@
+body {
+    background: linear-gradient(to top, rgb(25,25,25), rgb(0,0,0));
+    /* font-family: 'Roboto'; */
+}
+
+p {
+    color: white;
+}
+
+h2, b {
+    color: #c28f2c
+
+}
+
+b {
+    font-size: 16px;
+}
+
+.content_card_preview {
+    background: url('https://images6.alphacoders.com/385/385517.jpg');
+    background-size: cover;
+    background-position: center;
+    /* background-repeat: no-repeat; */
+}
+
+
+.preview {
+    height: 60vh;
+    width: 300px;
+    padding: 45px 30px;
+    background: url("../img/challenger.png") rgba(25,25,25,0.6);
+    background-size: cover;
+    border-radius: 20px
+}
+
+.link_content_card {
+    text-decoration: none !important; 
+
+}
+
+.content_card {
+    transition: transform .5s;
+    box-shadow: 1px 1px 8px  black;
+    border: 1px dotted #c28f2c !important;
+    background: #c28f2c;
+}
+
+.content_card:hover {
+    transform: scale(1.2);
+}
+
+.content_tag {
+    background: #c28f2cdb;
+    padding: 4px
+}
