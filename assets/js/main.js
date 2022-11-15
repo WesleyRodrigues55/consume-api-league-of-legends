@@ -49,7 +49,7 @@ const showDetailsChampions = (data) => {
     // getDataApi(data)
     let div = document.createElement("div")
     let cardBody = `
-        <div class="d-flex justify-content-center align-items-start h-100">
+        <div class="d-flex justify-content-center align-items-end h-100">
             <section>
                 <div class="text-center">
                 <h2>${data.name}</h2>
