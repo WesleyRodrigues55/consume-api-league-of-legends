@@ -5,11 +5,11 @@ body {
 
 p {
     color: white;
+    font-size: 12px;
 }
 
 h2, b {
     color: #c28f2c
-
 }
 
 b {
